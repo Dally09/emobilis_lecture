@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            background:#f8f8f8;
+            font-family: "cantrell", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        form {
+            width: 28%;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- text, email, password, number, date, radio, checkbox, select, submit -->
+
+    <form>
+        <label for="full_name">Names</label>
+        <input type="text" required name="full_name" id="full_name" placeholder="Jane Doe">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" required name="email" id="email" placeholder="doe@mail.com">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" required name="password" id="password" placeholder="********">
+        <br>
+        <label for="weight">Weight</label>
+        <input type="number" min="30" max="250" step="0.01" required name="weight" id="weight" placeholder="Weight in kgs">
+        <br>
+        <!-- check date format -->
+        <label for="dob">Date of Birth</label>
+        <input type="date" min="1940-01-01" max="2008-12-31" required name="dob" id="dob" placeholder="Date of Birth">
+        <br>
+        <!-- name must be the same for radio buttons -->
+        <input type="radio" required name="gender" id="m">
+        <label for="m">Male</label>
+        
+        <input type="radio" required name="gender" id="f">
+        <label for="f">Female</label>
+        <br>
+        <!-- can I use lists for this? -->
+        <input type="checkbox" name="food" id="x">
+        <label for="x">Pizza</label>
+        <input type="checkbox" name="food" id="y">
+        <label for="x">Buns</label>
+        <input type="checkbox" name="food" id="z">
+        <label for="x">Burger</label>
+        <input type="checkbox" name="food" id="w">
+        <label for="x">Krusher</label>
+        <br>
+        <select>
+            <option>Select County</option>
+            <option value="1">Mombasa</option>
+            <option value="2">Nairobi</option>
+            <option value="3">Nyeri</option>
+            <option value="4">Kisumu</option>
+            <option value="5">Kisii</option>
+        </select><br>
+        <button>Register</button>
+    </form>
+    <!-- Setup username and email -->
+    <!-- git config --global user.name "Dalton" -->
+    <!-- git config --global user.email "daltonmaget7@gmail.com" -->
+</body>
+</html>

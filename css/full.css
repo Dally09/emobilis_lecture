@@ -1,0 +1,115 @@
+:root {
+  /* --my-color: #ec7878;
+    --my-padding: 16px; */
+  /* font family */
+  /* --my-ff: fantasy; */
+  --brand-green: #159957;
+  --brand-dark: #1f2d3d;
+  --soft-bg: #f4f8f7;
+}
+
+body {
+  /* background-color: var(--my-color); */
+  font-family: "Actor", sans-serif;
+  color: var(--brand-dark);
+}
+
+.navbar-brand {
+  color: var(--brand-green);
+  font-size: 1.4rem;
+}
+
+#goods {
+  color: var(--brand-dark);
+}
+
+.navbar-brand:hover {
+  color: #10442a;
+}
+
+.nav-link {
+  color: #133624 !important;
+  font-weight: 700;
+}
+
+.nav-link .active,
+.nav-link:hover {
+  color: var(--brand-green) !important;
+}
+
+.btn-success {
+  background-color: var(--brand-green);
+  border-color: var(--brand-green);
+  border-radius: 3px;
+
+}
+
+.btn-success:hover {
+  background-color: #0adf74;
+  border-color: #0adf74;
+  transition: ease 1s;
+}
+
+.hero {
+  background: linear-gradient(to right, #ffffff, #bbbbbb8a);
+}
+
+.hero .small-heading {
+  color: var(--brand-green);
+  font-weight: 800;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
+.card {
+  border-color: #e5ece9;
+  transition:
+    transform 1s ease,
+    box-shadow 1s ease;
+}
+
+.card:hover {
+    /* Y axis starts from top left */
+  transform: translateY(-5px);
+  box-shadow: 6px 8px 14px 2px rgba(0, 0, 0, 0.658);
+  -webkit-box-shadow: 6px 8px 14px 2px rgba(0, 0, 0, 0.658);
+  -moz-box-shadow: 6px 8px 14px 2px rgba(0, 0, 0, 0.658);
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+}
+
+.card-title{
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.price{
+    color: var(--brand-green);
+}
+
+.about-section{
+    color: var(--brand-green);
+    font-size: 2.3rem;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.658);
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: var(--brand-green);
+}
+
+.copyright{
+    background-color: #1f2d3dc4;
+}

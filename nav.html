@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <title>NAV</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+      /* * {
+        margin: 0%;
+        padding: 0%;
+      } */
+
+      body {
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-optical-sizing: auto;
+        margin: 0;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background: #fafc8c;
+      }
+
+      .content {
+        background: #6cd9ec;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo img {
+        width: 60px;
+        height: 60px;
+      }
+
+      .content ul {
+        display: flex;
+
+        /* remove bullets */
+        list-style-type: none;
+      }
+
+      .content li {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+
+      .content a {
+        text-decoration: none;
+        color: #f70808;
+        font-weight: bold;
+        padding: 5px 5px;
+      }
+
+      .content a:hover {
+        text-decoration: underline;
+        background-color: #f0ecec;
+        /* transition: width 10000s; */
+        /* text-transform: capitalize; */
+      }
+
+      h3 {
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Semantic tags -->
+    <nav>
+      <div class="content">
+        <div class="logo">
+          <!-- <img src="img/icons8-movers-48.jpeg" alt="Heha Movers" /> -->
+          <a href="http://127.0.0.1:5500/nav.html" target="_self">
+            <img src="img/icons8-movers-48.jpeg" alt="heha movers" />
+          </a>
+        </div>
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Get Help</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      <h3>heha movers</h3>
+    </div>
+  </body>
+</html>
